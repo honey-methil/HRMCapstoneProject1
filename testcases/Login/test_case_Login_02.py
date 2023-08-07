@@ -10,7 +10,7 @@ class Test_Login:
     invalid_username = "Admin"
     invalid_password = "Invalid Password"
 
-    # Opening a browser
+    # Opening a browser - changed comment
     def setup_class(self):
         self.driver.get(BaseUrl)
         self.login_page = LoginPage(self.driver)
